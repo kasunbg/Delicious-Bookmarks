@@ -2,16 +2,15 @@
 <head>
 <script>
 
+  //When the browser action icon is clicked...
   chrome.browserAction.onClicked.addListener(function(tab) {
-
 	var delUrl='http://www.delicious.com/save?url='+encodeURIComponent(tab.url)+'&title='+encodeURIComponent(tab.title)+'&v=6&';
-	delUrl += 'noui=1&jump=doclose';
+	delUrl += 'noui=1&jump=doclose';	//auto-close
  	
-	chrome.tabs.getSelected(null,function(tab){
-		var delWin = window.open(delUrl,'deliciousuiv6','location=1,links=0,scrollbars=0,toolbar=0,width=550,height=585,left=350,top=250');
-
+	chrome.tabs.getSelected(null,function(tab) {
+		var delWin = window.open(delUrl, 'deliciousuiv6', 'location=1,links=0,scrollbars=0,toolbar=0,width=550,height=585,left=350,top=250');
 		delWin.focus();
-	}
+	    }
 	);	
 	
   });

@@ -1,0 +1,18 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/delicious32.png",
+      "default_title": "This page is Delicious!"
+   },
+   "description": "Bookmarks your favorite links in Delicious, with an user-friendly interface.",
+   "icons": {
+      "128": "images/delicious128.png",
+      "24": "images/delicious24.png",
+      "32": "images/delicious32.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy1BMfmj5E3VNqqdM2+vEJjkIX5PNbNwaR1ooJIB2FLy32tNUldVkK2eyesbYX+4im99cn3wEe7Ek6fnigcgubwyVP+DjShKFtTjZmEUpF3EWRWWPiN3KyfKbIhS3BznOxZTbbisg3qgYg1F3z4Dx4DJeZeFmm4sUhAhoLtoLxZwIDAQAB",
+   "name": "Delicious Bookmarks",
+   "permissions": [ "tabs", "bookmarks" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

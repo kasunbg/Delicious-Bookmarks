@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+	var deliciousUrl = "http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=";
+
+  chrome.browserAction.onClicked.addListener(function(tab) {
+ 	
+	chrome.tabs.getSelected(null,function(tab){
+		var delWin = window.open(deliciousUrl + tab.url + '&title=' + tab.title +' ','deliciousuiv5','location=no,links=no,scrollbars=no,toolbar=no,width=733,height=407,left=350,top=250');
+		delWin.focus();
+	}
+	);	
+	
+  });
+
+  var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-18987417-1']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = 'https://ssl.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+
+</script>
+</head>
+</html>

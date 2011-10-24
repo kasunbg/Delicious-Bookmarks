@@ -4,7 +4,7 @@
       "default_icon": "images/delicious32.png",
       "default_title": "This page is Delicious!"
    },
-   "description": "Bookmarks your favorite links in Delicious, with an user-friendly interface.",
+   "description": "Bookmarks your favorite links to Delicious, with an user-friendly interface.",
    "icons": {
       "128": "images/delicious128.png",
       "24": "images/delicious24.png",
@@ -14,5 +14,5 @@
    "name": "Delicious Bookmarks",
    "permissions": [ "tabs", "bookmarks" ],
    "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "1.5"
+   "version": "2.0"
 }

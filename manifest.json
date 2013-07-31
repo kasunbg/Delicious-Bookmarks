@@ -6,7 +6,7 @@
       "default_icon": "images/delicious32.png",
       "default_title": "This page is Delicious!"
    },
-   "description": "Bookmarks your favorite links to Delicious, with a quick access, user-friendly interface. This provides Delicious Bookmarklet functionality as a Chrome extension.",
+   "description": "Bookmarks your favorite links to Delicious.com, with a quick access, user-friendly interface.",
    "icons": {
       "128": "images/delicious128.png",
       "24": "images/delicious24.png",

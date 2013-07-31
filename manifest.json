@@ -1,5 +1,7 @@
 {
-   "background_page": "background.html",
+   "background": {
+      "page": "background.html"
+   },
    "browser_action": {
       "default_icon": "images/delicious32.png",
       "default_title": "This page is Delicious!"
@@ -13,5 +15,6 @@
    "name": "Delicious Bookmarks",
    "permissions": [ "tabs", "bookmarks" ],
    "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "2.0"
+   "version": "3.0",
+   "manifest_version": 2
 }
